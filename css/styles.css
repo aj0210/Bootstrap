@@ -1,0 +1,169 @@
+#title {
+  background-color: #ff4c68;
+
+}
+
+/* Navbar */
+.navbar-brand{
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:  400;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  Size :3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 10%;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+#iphone{
+
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+.title-img{
+  width: 60%;
+}
+
+/* Download Button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.check,.bullseye,.heart{
+  color: #ef8172;
+}
+.check:hover,.bullseye:hover,.heart:hover{
+  color: #ff4c68;
+}
+
+h3{
+  font-family:'Montserrat', sans-serif;
+  font-weight:700;
+  font-size: 1.5rem
+}
+
+/* Features */
+
+
+#features{
+  padding: 7% 15% ;
+  text-align: center;
+  background-color:#fff;
+  position: relative;
+
+}
+
+
+/* Testimonials */
+
+
+h2{
+  font-family:'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight:bold;
+  line-height: 1.5;
+}
+  #testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+  }
+.testimonial-image{
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+
+  text-align: center;
+  padding: 3%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 50px;
+  text-align: center;
+}
+
+
+/* Footer */
+
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  #iphone{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+.footer{
+  text-align: center;
+
+
+}
+#cta{
+  padding: 5%;
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+}
+
+p{
+  text-align: center;
+}
+
+#footer{
+  padding-top: 5%;
+text-align: center;
+}
+.ft{
+  padding: 5px;
+}
